@@ -1,7 +1,7 @@
-const Info = () => (
-  <div>
-    <p>Info Page</p>
-  </div>
+import InfoPage from '../components/InfoPage';
+
+const Details = () => (
+  <InfoPage />
 );
 
-export default Info;
+export default Details;
