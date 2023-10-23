@@ -31,7 +31,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Meals Project <a name="about-project"></a>
+# 📖 Metrics Webapp <a name="about-project"></a>
 
 **Metrics Webapp:** A React web based app that shows air quality and other weather conditions of cities across the world. 
 
@@ -76,7 +76,7 @@
 
 ## 🚀 Presentation <a name="presentation"></a>
 
-- [Presentation] (https://drive.google.com/file/d/1pauRlxyAOAUf61stpsAPvNjkTXbzmcSy/view?usp=share_link)
+- [Presentation] (https://drive.google.com/file/d/1pauRlxyAOAUf61stpsAPvNjkTXbzmcSy/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,7 +203,9 @@ If you like this project, create a pull request or hit me up on [@r_miyoyo](http
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I appreciate you for having a look at my project! :100:
+1. Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+2. I appreciate you for having a look at my project! :100:
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
