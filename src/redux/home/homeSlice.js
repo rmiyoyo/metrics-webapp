@@ -18,14 +18,14 @@ export const fetchTownInfo = createAsyncThunk('home/fetchTownInfo', async (_, { 
     let dirtRange = '';
 
     const ipaddr = [
-      { lat, lon: lon + 0.6 },
-      { lat, lon: lon - 0.6 },
-      { lat: lat + 0.6, lon },
-      { lat: lat - 0.6, lon },
-      { lat: lat + 0.6, lon: lon + 0.6 },
-      { lat: lat - 0.6, lon: lon - 0.6 },
-      { lat: lat + 0.6, lon: lon - 0.6 },
-      { lat: lat - 0.6, lon: lon + 0.6 },
+      { lat, lon: lon + 0.5 },
+      { lat, lon: lon - 0.5 },
+      { lat: lat + 0.5, lon },
+      { lat: lat - 0.5, lon },
+      { lat: lat + 0.5, lon: lon + 0.5 },
+      { lat: lat - 0.5, lon: lon - 0.5 },
+      { lat: lat + 0.5, lon: lon - 0.5 },
+      { lat: lat - 0.5, lon: lon + 0.5 },
     ];
 
     const diffTowns = [];
