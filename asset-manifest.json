@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/metrics-webapp/static/css/main.695d756b.css",
-    "main.js": "/metrics-webapp/static/js/main.8860959a.js",
+    "main.js": "/metrics-webapp/static/js/main.db82f052.js",
     "index.html": "/metrics-webapp/index.html",
     "main.695d756b.css.map": "/metrics-webapp/static/css/main.695d756b.css.map",
-    "main.8860959a.js.map": "/metrics-webapp/static/js/main.8860959a.js.map"
+    "main.db82f052.js.map": "/metrics-webapp/static/js/main.db82f052.js.map"
   },
   "entrypoints": [
     "static/css/main.695d756b.css",
-    "static/js/main.8860959a.js"
+    "static/js/main.db82f052.js"
   ]
 }
