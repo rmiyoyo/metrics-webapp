@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter path="/metrics-webapp">
+      <BrowserRouter basename="/">
         <App />
       </BrowserRouter>
     </Provider>
