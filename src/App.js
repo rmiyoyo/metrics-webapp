@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/metrics-webapp" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="details" element={<Info />} />
           <Route path="*" element={<PageError />} />
