@@ -1,9 +1,20 @@
 import { useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
+import { BsArrowLeftCircle } from 'react-icons/bs';
 import { getData } from '../redux/home/homeSlice';
 import drizzleIcon from '../assets/logo/drop.png';
 
 const InfoPage = () => {
   const { townActive } = useSelector(getData);
+  useEffect(() => {
+    if (Object.keys(townActive).length > 0) {
+      localStorage.setItem('townActive', JSON.stringify(townActive));
+    }
+  }, [townActive]);
+
+  const city = Object.keys(townActive).length > 0 ? townActive : JSON.parse(localStorage.getItem('townActive'));
+
   const dirtRange = (aqi) => {
     let level = '';
     switch (aqi) {
@@ -30,10 +41,13 @@ const InfoPage = () => {
 
   return (
     <>
-      {Object.keys(townActive).length === 0 && <p className="empty-info">Data Not Found</p>}
-      {Object.keys(townActive).length !== 0 && (
+      {city && Object.keys(townActive).length === 0 && <p className="empty-info">Data Not Found</p>}
+      {city && Object.keys(townActive).length !== 0 && (
         <>
           <div className="info-sarea">
+            <NavLink to="/metrics-webapp" className="back-arrow-link">
+              <BsArrowLeftCircle className="back-arrow" />
+            </NavLink>
             <div className="weather-data-area">
               <div className="weather-logo-area">
                 <img src={`https://download.spinetix.com/content/widgets/icons/weather/${townActive.weather.icon}.png`} alt="weather icon" />
