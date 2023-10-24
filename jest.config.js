@@ -3,6 +3,6 @@ module.exports = {
   transform: {
     '^.+\\.(js|jsx)$': 'babel-jest',
   },
-  "rootDir": "./src"
+  rootDir: './src',
   // Other Jest configuration options...
 };
