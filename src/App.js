@@ -10,6 +10,7 @@ import './App.css';
 import './styles/home.scss';
 import './styles/nav.scss';
 import './styles/info.scss';
+import './styles/details.scss';
 
 function App() {
   const dispatch = useDispatch();
