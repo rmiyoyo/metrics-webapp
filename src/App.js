@@ -10,6 +10,7 @@ import './App.css';
 import './styles/home.scss';
 import './styles/nav.scss';
 import './styles/info.scss';
+import './styles/details.scss';
 
 function App() {
   const dispatch = useDispatch();
@@ -19,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/metrics-webapp" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="details" element={<Info />} />
           <Route path="*" element={<PageError />} />

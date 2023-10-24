@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-    <img src="icons/math.png" alt="logo" width="140"  height="auto" />
     <br/>
   <h3><b>Metrics Webapp</b></h3>
 </div>
@@ -15,6 +14,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Presentation](#presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -31,9 +31,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Meals Project <a name="about-project"></a>
+# 📖 Metrics Webapp <a name="about-project"></a>
 
-**Metrics Webapp:** . 
+**Metrics Webapp:** A React web based app that shows air quality and other weather conditions of cities across the world. 
 
 ## 🛠 Built With <a name="built-with"></a>
 - [x] React
@@ -59,9 +59,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Display books 
-- Add books
-- Delete books
+- Display weather conditions
+- Choose city
+- Find out more information by clicking on a card
 
 <!-- ![Screenshot](./images/Screenshot%202.png) -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -70,7 +70,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo] (https://metrics-webapp-o871.onrender.com/)
+- [Live Demo] (https://rmiyoyo.github.io/metrics-webapp/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Presentation <a name="presentation"></a>
+
+- [Presentation] (https://drive.google.com/file/d/1pauRlxyAOAUf61stpsAPvNjkTXbzmcSy/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +203,9 @@ If you like this project, create a pull request or hit me up on [@r_miyoyo](http
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I appreciate you for having a look at my project! :100:
+1. Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+2. I appreciate you for having a look at my project! :100:
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
