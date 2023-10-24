@@ -1,8 +1,8 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const ipgeoApiKey = process.env.REACT_APP_IPGEO_API_KEY;
-const openweatherApiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
+const ipgeoApiKey = 'af220bc2926740c1bdb54cd96f12a150';
+const openweatherApiKey = 'ddf20c9df8114e14ad3229967f236fd1';
 
 export const fetchTownInfo = createAsyncThunk('home/fetchTownInfo', async (_, { rejectWithValue }) => {
   try {
